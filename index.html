@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SENTO</title>
+    <link href="https://db.onlinewebfonts.com/c/d1ac108131091802935267cb92a801d7?family=Director+W03+Regular" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrapper">
+        <div id="title">SENTO</div>
+        <div id="main">
+            <h2>EVERYDAY EXTRAORDINARY</h2>
+            <p>The first Portland-based high-end communal wellness brand offering elevated design, effective programming, and meaningful transformation.</p>
+        </div>
+        <div id="contact-form">
+            <p class="newsletter-block">NEWSLETTER: <span class="newsletter-input"><input type="text" placeholder="your@email.com"><button>JOIN</button></span></p>
+            <p><a href="mailto:contact@sentospace.com">CONTACT</a></p>
+        </div>
+    </div>
+
+    <style>
+        @import url(https://db.onlinewebfonts.com/c/d1ac108131091802935267cb92a801d7?family=Director+W03+Regular);
+
+        @font-face {
+            font-family: "Director W03 Regular";
+            src: url("https://db.onlinewebfonts.com/t/d1ac108131091802935267cb92a801d7.eot");
+            src: url("https://db.onlinewebfonts.com/t/d1ac108131091802935267cb92a801d7.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/d1ac108131091802935267cb92a801d7.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/d1ac108131091802935267cb92a801d7.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/d1ac108131091802935267cb92a801d7.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/d1ac108131091802935267cb92a801d7.svg#Director W03 Regular")format("svg");
+        }
+
+        body { 
+            font-family: "Director W03 Regular"; 
+            background-color: #adb6aa;
+            color: #111;
+            padding: 20vh 20vw; 
+            letter-spacing: .1cm;
+            margin: 0;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            opacity: .5;
+            border-bottom: 1px solid;
+        }
+
+        a:hover {
+            opacity: .7;
+            transition: 200ms;
+        }
+
+        input[type="text"] {
+            background: none;
+            border: none;
+            border-bottom: 1px solid rgba(0,0,0,.25);
+            color: #111;
+            font-family: "Director W03 Regular"; 
+            font-size: 1.25rem;
+        }
+
+        input[type="text"]::placeholder {
+            color: rgba(0,0,0,.25);
+        }
+
+        input[type="text"]:focus-visible {
+            background: none;
+            outline: none;
+            border-bottom: 1px solid #111;
+        }
+
+        button {
+            background: rgba(255,255,255,.5);;
+            border: 1px solid rgba(255,255,255,.25);
+            border-radius: 4px;
+            font-family: "Director W03 Regular"; 
+            font-size: 1.25rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            border: 1px solid rgba(255,255,255,.5);
+            transition: 400ms;
+        }
+
+        #wrapper { 
+            min-height: 55vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            gap: 50px;
+        }
+
+        #title { 
+            font-size: 6rem; 
+        }
+
+        #main { 
+            align-self: flex-end;
+            width: 60%; 
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 400;
+            color: #fff;
+            opacity: .5;
+            margin: 0;
+        }
+
+        #main p {
+            margin-left: 100px;
+            word-spacing: .15cm;
+            font-size: 1.25rem;
+            letter-spacing: .025cm;
+        }
+
+        #contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            letter-spacing: .025cm;
+            font-size: 1.25rem;
+        }
+
+        #contact-form p {
+            margin: 0;
+        }
+
+        .newsletter-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .newsletter-input {
+            display: inline-flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 10px;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 10vh 10vw;
+            }
+        }
+    </style>
+  </body>
+</html>

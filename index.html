@@ -37,7 +37,7 @@
             font-family: "Director W03 Regular"; 
             background-color: #adb6aa;
             color: #111;
-            padding: 20vh 20vw; 
+            padding: 10vh 5vw; 
             letter-spacing: .1cm;
             margin: 0;
         }
@@ -61,6 +61,8 @@
             color: #111;
             font-family: "Director W03 Regular"; 
             font-size: 1.25rem;
+            padding: 0;
+            margin: 0;
         }
 
         input[type="text"]::placeholder {
@@ -74,10 +76,13 @@
         }
 
         button {
+            -webkit-appearance: none;
+            appearance: none;
             background: rgba(255,255,255,.5);;
             border: 1px solid rgba(255,255,255,.25);
             border-radius: 4px;
-            font-family: "Director W03 Regular"; 
+            color: #111;
+            font-family: "Director W03 Regular";
             font-size: 1.25rem;
             cursor: pointer;
         }
@@ -88,7 +93,7 @@
         }
 
         #wrapper { 
-            min-height: 55vh;
+            min-height: 80vh;
             display: flex;
             flex-direction: column;
             justify-content: space-between; 
@@ -149,6 +154,9 @@
         @media (max-width: 640px) {
             body {
                 padding: 10vh 10vw;
+            }
+            #main {
+                width: 80%;
             }
         }
     </style>
